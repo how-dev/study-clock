@@ -1,0 +1,7 @@
+.sectionClocksBlock {
+    margin-bottom: 90px;
+    width: 120%;
+
+    display: flex;
+    justify-content: space-evenly;
+}

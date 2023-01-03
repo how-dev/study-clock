@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+
+.clockBox {
+    position: relative;
+    max-width: 200px;
+    margin-inline: auto;
+}
+    .firstClock {
+        background: radial-gradient(#fff, #000 65%);
+    }
+    .secondClock {
+        background: radial-gradient(#fff, #71009e 65%);
+    }
+    .thirdClock {
+        background: radial-gradient(#fff, #8f0000 65%);
+    }
+    .clock {
+        height: 200px;
+        width: 200px;
+        margin-inline: auto;
+        border-radius: 200px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+        .bell {
+            width: 75px;
+            height: 75px;
+            margin: 20px;
+            clip-path: circle(50% at 0%);
+            position: absolute;
+            bottom: 165px;
+            border-radius: 5px;
+        }
+            .stick {
+                position: absolute;
+                width: 16px;
+                height: 25px;
+                background-color: #000;
+                right: 74px;
+            }
+        .clock--bell__left {   
+            right: 130px;   
+            transform: rotate(230deg);
+        }
+            .bell--stick__left {
+                top: 23px;
+            }
+        .clock--bell__right {
+            left: 130px;
+            transform: rotate(308deg);
+        }
+            .bell--stick__right {
+                top: 25px;
+            }
+        .clock--content {
+            width: 150px;
+            height: 60px;
+            border-radius: 5px;
+            font-family: 'Orbitron', sans-serif;
+            font-size: 1.8rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #989898;
+
+            text-shadow: 0 0 5px #fff;
+
+            box-shadow: 0 0 10px rgb(201, 201, 201);
+        }

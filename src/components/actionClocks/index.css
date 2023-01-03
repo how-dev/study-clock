@@ -1,0 +1,6 @@
+.actionClockBlock {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
